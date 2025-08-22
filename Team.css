@@ -224,7 +224,7 @@
   grid-template-columns: repeat(3, calc(33.3333% - 14.6667px));
   min-height: 1054px;
   grid-auto-columns: calc(33.3333% - 14.6667px);
-  grid-gap: 22px;
+  --gap: 22px;
 }
 
 .u-section-3 .u-list-item-1 {
@@ -446,7 +446,8 @@
   .u-section-3 .u-repeater-1 {
     grid-template-columns: repeat(3, calc(33.333333333333336% - 14.6667px));
     grid-auto-columns: calc(33.333333333333336% - 14.6667px);
-    min-height: 866px;
+    grid-gap: 22px;
+    min-height: 869px;
   }
 
   .u-section-3 .u-image-1 {
@@ -478,7 +479,7 @@
   .u-section-3 .u-repeater-1 {
     grid-template-columns: repeat(2, calc(50% - 11.000025px));
     grid-auto-columns: calc(50% - 11.000025px);
-    min-height: 1523px;
+    min-height: 1498px;
   }
 
   .u-section-3 .u-image-1 {
