@@ -46816,7 +46816,7 @@ a.u-link.u-text-hover-color-var:hover {
         }
         h3
         {
-        font-size: 3rem;
+        font-size: 1.875rem;
         line-height: 1.2;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -47192,29 +47192,10 @@ a.u-link.u-text-hover-color-var:hover {
   min-height: 118px;
 }
 
-.u-header .u-social-icons-1 {
-  height: 28px;
-  width: 128px;
-  min-width: 68px;
-  margin: 29px 0 0 auto;
-}
-
-.u-header .u-icon-1 {
-  height: 0;
-}
-
-.u-header .u-icon-2 {
-  height: 0;
-}
-
-.u-header .u-icon-3 {
-  height: 100%;
-}
-
 .u-header .u-image-1 {
-  width: 177px;
-  height: 84px;
-  margin: -40px auto 0 9px;
+  width: 199px;
+  height: 94px;
+  margin: 17px auto 0 9px;
 }
 
 .u-header .u-logo-image-1 {
@@ -47227,12 +47208,13 @@ a.u-link.u-text-hover-color-var:hover {
 }
 
 .u-header .u-hamburger-link-1 {
+  font-size: 1.375rem;
   padding: 6px 13px;
 }
 
 .u-header .u-nav-1 {
-  font-size: 0.875rem;
   font-weight: 700;
+  font-size: 0.875rem;
 }
 
 .u-header .u-sidenav-1 {
@@ -47248,97 +47230,84 @@ a.u-link.u-text-hover-color-var:hover {
 .u-header .u-shopping-cart-1 {
   height: 36px;
   width: 36px;
-  margin: -24px 153px 57px auto;
+  margin: -30px 0 0 auto;
 }
 
-.u-header .u-icon-4 {
+.u-header .u-icon-1 {
   background-image: none;
   --radius: 12px;
   padding: 6px;
 }
-@media (max-width: 1199px) {
-  .u-header .u-social-icons-1 {
-    width: 128px;
-  }
 
+.u-header .u-social-icons-1 {
+  height: 28px;
+  width: 128px;
+  min-width: 68px;
+  margin: -32px 69px 60px auto;
+}
+
+.u-header .u-icon-2 {
+  height: 0;
+}
+
+.u-header .u-icon-3 {
+  height: 0;
+}
+
+.u-header .u-icon-4 {
+  height: 100%;
+}
+@media (max-width: 1199px) {
   .u-header .u-image-1 {
-    width: 177px;
-    margin-top: -40px;
+    width: 199px;
+    height: 95px;
   }
 
   .u-header .u-menu-1 {
     margin-top: -76px;
   }
 
-  .u-header .u-hamburger-link-1 {
-    font-size: 1.375rem;
+  .u-header .u-shopping-cart-1 {
+    width: 36px;
+    margin-top: -30px;
   }
 
-  .u-header .u-shopping-cart-1 {
-    margin-right: 153px;
+  .u-header .u-social-icons-1 {
+    margin-top: -32px;
   }
 }
 @media (max-width: 991px) {
-  .u-header .u-sheet-1 {
-    min-height: 124px;
-  }
-
-  .u-header .u-social-icons-1 {
-    margin-top: 35px;
-  }
-
-  .u-header .u-image-1 {
-    height: 84px;
-    margin-top: -43px;
-    margin-left: 20px;
-  }
-
-  .u-header .u-menu-1 {
-    margin-top: -73px;
-  }
-
   .u-header .u-hamburger-link-1 {
     font-size: calc(1em + 11.1094px);
   }
-
-  .u-header .u-shopping-cart-1 {
-    margin-top: -36px;
-    margin-bottom: 57px;
-  }
 }
-@media (max-width: 767px) {
-  .u-header .u-image-1 {
-    margin-top: -43px;
-  }
 
-  .u-header .u-menu-1 {
-    margin-top: -73px;
-  }
-
-  .u-header .u-shopping-cart-1 {
-    margin-top: -36px;
-  }
-}
 @media (max-width: 575px) {
-  .u-header .u-social-icons-1 {
-    margin-top: 35px;
+  .u-header .u-sheet-1 {
+    min-height: 123px;
   }
 
   .u-header .u-image-1 {
-    width: 133px;
-    height: 63px;
-    margin-top: -45px;
-    margin-left: -23px;
+    width: 121px;
+    height: 58px;
+    margin-top: 20px;
+    margin-left: -38px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: -50px;
+    width: auto;
+    margin-top: -47px;
+    margin-left: 102px;
   }
 
   .u-header .u-shopping-cart-1 {
-    margin-top: 17px;
-    margin-right: auto;
-    margin-bottom: 4px;
+    margin-top: -36px;
+    margin-right: -18px;
+  }
+
+  .u-header .u-social-icons-1 {
+    margin-right: 42px;
+    margin-bottom: 60px;
   }
 }
  .u-footer {
@@ -47351,7 +47320,7 @@ a.u-link.u-text-hover-color-var:hover {
 
 .u-footer .u-line-1 {
   transform-origin: left center;
-  margin: 10px 0 0;
+  margin: 0;
 }
 
 .u-footer .u-layout-wrap-1 {
@@ -47436,7 +47405,7 @@ a.u-link.u-text-hover-color-var:hover {
 .u-footer .u-text-3 {
   line-height: 2;
   font-size: 1rem;
-  margin: 10px 0 0;
+  margin: 9px 0 0;
 }
 
 .u-footer .u-btn-2 {
@@ -47444,6 +47413,7 @@ a.u-link.u-text-hover-color-var:hover {
   border-style: solid;
   font-weight: 400;
   font-size: 1rem;
+  color: rgba(0, 0, 0, 0);
   padding: 0;
 }
 
@@ -47451,6 +47421,7 @@ a.u-link.u-text-hover-color-var:hover {
   border-style: solid;
   font-weight: 400;
   font-size: 1rem;
+  color: rgba(0, 0, 0, 0);
   padding: 0;
 }
 
@@ -47459,6 +47430,7 @@ a.u-link.u-text-hover-color-var:hover {
   margin-top: 0;
   font-weight: 400;
   font-size: 1rem;
+  color: rgba(0, 0, 0, 0);
   padding: 0;
 }
 
@@ -47500,6 +47472,7 @@ a.u-link.u-text-hover-color-var:hover {
   border-style: solid;
   font-weight: 400;
   font-size: 1rem;
+  color: rgba(0, 0, 0, 0);
   padding: 0;
 }
 
@@ -47507,6 +47480,7 @@ a.u-link.u-text-hover-color-var:hover {
   border-style: solid;
   font-weight: 400;
   font-size: 1rem;
+  color: rgba(0, 0, 0, 0);
   padding: 0;
 }
 
@@ -47515,6 +47489,7 @@ a.u-link.u-text-hover-color-var:hover {
   margin-top: 0;
   font-weight: 400;
   font-size: 1rem;
+  color: rgba(0, 0, 0, 0);
   padding: 0;
 }
 
@@ -47522,6 +47497,7 @@ a.u-link.u-text-hover-color-var:hover {
   border-style: solid;
   font-weight: 400;
   font-size: 1rem;
+  color: rgba(0, 0, 0, 0);
   padding: 0;
 }
 
@@ -47529,6 +47505,7 @@ a.u-link.u-text-hover-color-var:hover {
   border-style: solid;
   font-weight: 400;
   font-size: 1rem;
+  color: rgba(0, 0, 0, 0);
   padding: 0;
 }
 
@@ -47569,6 +47546,7 @@ a.u-link.u-text-hover-color-var:hover {
   border-style: solid;
   font-weight: 400;
   font-size: 1rem;
+  color: rgba(0, 0, 0, 0);
   padding: 0;
 }
 
@@ -47581,6 +47559,7 @@ a.u-link.u-text-hover-color-var:hover {
   border-style: solid;
   font-weight: 400;
   font-size: 1rem;
+  color: rgba(0, 0, 0, 0);
   padding: 0;
 }
 @media (max-width: 1199px) {
@@ -47882,15 +47861,15 @@ a.u-link.u-text-hover-color-var:hover {
   }
 
   .u-footer .u-btn-2 {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
   }
 
   .u-footer .u-btn-3 {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
   }
 
   .u-footer .u-btn-4 {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
   }
 
   .u-footer .u-btn-5 {
@@ -47925,23 +47904,23 @@ a.u-link.u-text-hover-color-var:hover {
   }
 
   .u-footer .u-btn-6 {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
   }
 
   .u-footer .u-btn-7 {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
   }
 
   .u-footer .u-btn-8 {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
   }
 
   .u-footer .u-btn-9 {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
   }
 
   .u-footer .u-btn-10 {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
   }
 
   .u-footer .u-layout-cell-6 {
@@ -47979,7 +47958,7 @@ a.u-link.u-text-hover-color-var:hover {
   }
 
   .u-footer .u-btn-11 {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
   }
 
   .u-footer .u-text-9 {
@@ -47990,7 +47969,7 @@ a.u-link.u-text-hover-color-var:hover {
   }
 
   .u-footer .u-btn-12 {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
   }
 }
 
