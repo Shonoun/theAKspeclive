@@ -47258,13 +47258,19 @@ a.u-link.u-text-hover-color-var:hover {
   height: 100%;
 }
 @media (max-width: 1199px) {
+  .u-header .u-sheet-1 {
+    min-height: 126px;
+  }
+
   .u-header .u-image-1 {
     width: 199px;
     height: 95px;
+    margin-top: 16px;
+    margin-left: 0;
   }
 
   .u-header .u-menu-1 {
-    margin-top: -76px;
+    margin-top: -74px;
   }
 
   .u-header .u-shopping-cart-1 {
@@ -47277,6 +47283,10 @@ a.u-link.u-text-hover-color-var:hover {
   }
 }
 @media (max-width: 991px) {
+  .u-header .u-menu-1 {
+    margin-top: -74px;
+  }
+
   .u-header .u-hamburger-link-1 {
     font-size: calc(1em + 11.1094px);
   }
@@ -47315,7 +47325,7 @@ a.u-link.u-text-hover-color-var:hover {
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 556px;
+  min-height: 562px;
 }
 
 .u-footer .u-line-1 {
@@ -47324,8 +47334,7 @@ a.u-link.u-text-hover-color-var:hover {
 }
 
 .u-footer .u-layout-wrap-1 {
-  margin-top: 20px;
-  margin-bottom: 0;
+  margin: 60px 0 0;
 }
 
 .u-footer .u-image-1 {
@@ -47564,7 +47573,7 @@ a.u-link.u-text-hover-color-var:hover {
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
-    min-height: 488px;
+    min-height: 494px;
   }
 
   .u-footer .u-line-1 {
@@ -47575,6 +47584,8 @@ a.u-link.u-text-hover-color-var:hover {
 
   .u-footer .u-layout-wrap-1 {
     margin-top: -137px;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-footer .u-image-1 {
@@ -47637,6 +47648,8 @@ a.u-link.u-text-hover-color-var:hover {
 
   .u-footer .u-layout-wrap-1 {
     margin-top: -229px;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-footer .u-image-1 {
@@ -47682,17 +47695,19 @@ a.u-link.u-text-hover-color-var:hover {
 }
 @media (max-width: 767px) {
   .u-footer .u-sheet-1 {
-    min-height: 1064px;
+    min-height: 1104px;
   }
 
   .u-footer .u-line-1 {
-    margin-top: 490px;
+    margin-top: 530px;
     margin-right: initial;
     margin-left: initial;
   }
 
   .u-footer .u-layout-wrap-1 {
     margin-top: -473px;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-footer .u-image-1 {
@@ -47798,6 +47813,8 @@ a.u-link.u-text-hover-color-var:hover {
 
   .u-footer .u-layout-wrap-1 {
     margin-top: -389px;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-footer .u-image-1 {
