@@ -38,8 +38,8 @@ Get-ChildItem -Recurse -Filter *.html |
     $content = $content -replace '(?i)(products)\.html#', '$1/#'
 
     if ($content -ne (Get-Content -Raw $path)) {
-# After all regex replacements
-$content = $content -replace "`u200B", ""
+# Strip characters that often get mis-decoded as â€‹
+$content = $content -replace '[\u200B\u00E2\u20AC\u2039]', ''
 Set-Content -Path $path -Value $content -Encoding UTF8 -Force
       Write-Host "Patched: $path"
     }
@@ -53,6 +53,8 @@ if (Test-Path $sitemap) {
   $s = $s -replace '(<loc>https?://[^<]*/)index\.html(</loc>)', '$1$2'
   # any other *.html -> /dir/
   $s = $s -replace '(<loc>https?://[^<]*/)([^<"]*?)\.html(</loc>)', '$1$2/$3'
+# Strip characters that often get mis-decoded as â€‹
+$content = $content -replace '[\u200B\u00E2\u20AC\u2039]', ''
   Set-Content -Path $sitemap -Value $s -Encoding UTF8 -Force
   Write-Host "Patched sitemap.xml"
 } else {
