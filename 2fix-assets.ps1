@@ -30,7 +30,9 @@ foreach ($f in $files) {
   $c = $c -replace 'data-intl-tel-input-cdn-path="(?:\.\./)*intlTelInput/?"', 'data-intl-tel-input-cdn-path="/intlTelInput/"'
 
   if ($c -ne $o) {
-    Set-Content -Path $f.FullName -Value $c -Encoding UTF8
+# Strip ZERO WIDTH SPACE (U+200B)
+$content = $content -replace "`u200B", ""
+    Set-Content -Path $f.FullName -Value $c -Encoding UTF8 -Force
     Write-Host "Assets fixed: $($f.FullName)"
   }
 }
